@@ -22,10 +22,10 @@ p {
 img {
   display: block;
 }
-.link {
+li {
   text-decoration: none;
-  color: currentColor;
 }
+
 
 /* -----------***| header  |***---------- */
 .header {display: flex;
@@ -37,4 +37,3 @@ img {
   justify-content: center;
   align-items: center;}
 
-  
