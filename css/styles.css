@@ -22,7 +22,7 @@ p {
 img {
   display: block;
 }
-li {
+li, a {
   text-decoration: none;
 }
 
