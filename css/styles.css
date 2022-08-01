@@ -27,7 +27,14 @@ img {
   color: currentColor;
 }
 
------------***| header  |***----------
-.header {
-
+/* -----------***| header  |***---------- */
+.header {display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.nav-list {display: flex;
+  justify-content: center;
+  align-items: center;}
+
+  
