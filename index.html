@@ -18,25 +18,31 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header class="header">
-      <img src="./image/logo.jpg" alt="логотип" width="69"/>
+
+ <header class="header">
+    <div class="container header-container">
+   
+      <img src="./image/logo.jpg" alt="логотип" width="69" class="logo"/>
     
         <ul class="nav-list">
-          <li><a href="О нас">О нас</a></li>
-          <li><a href="Услуги и цены">Услуги и цены</a></li>
-          <li><a href="Мастера">Мастера</a></li>
-          <li><a href="Контакты">Контакты</a></li>
+          <li><a href="О нас" class="nav-link">О нас</a></li>
+          <li><a href="Услуги и цены" class="nav-link">Услуги и цены</a></li>
+          <li><a href="Мастера" class="nav-link">Мастера</a></li>
+          <li><a href="Контакты" class="nav-link">Контакты</a></li>
         </ul>
 
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
+        
+        <a href="tel:+380441111111" class="contact">+38 044 111 11 11</a>
 
-        <button type="button">онлайн-запись</button>
-    
+        <button type="button" class="button ">онлайн-запись</button>
+    </div>
     </header>
 
     <main>
     <!-- -----------***| секция Герой  |***---------- -->
-      <section>
+      
+    <section>
+      <div class="container">
         <a
           href="https://www.instagram.com/"
           lang="en"
@@ -62,10 +68,14 @@
             <div class="pagination-item"></div>
             <div class="pagination-item"></div>
           </div> -->
-      </section>
+      </div>
+        </section>
 
     <!-- -----------***| секция О нас  |***---------- -->
-      <section>
+     
+    <section>
+<div class="container">
+
 
         <img src="./image/img1.jpg" alt="бритье" width="270" />
         <img src="./image/img2.jpg" alt="бритье опасной бритвой" width="270" />
@@ -86,11 +96,13 @@
           приходит!
         </p>
         <button type="button">онлайн-запись</button>
+</div>
       </section>
 
     <!-- -----------***| секция Цены  |***---------- -->
-      <section>
-
+  
+    <section>
+<div class="container">  
         <p>Проведи время в компании лучших мастеров</p>
         <h2>Услуги и цены</h2>
         <ul>
@@ -114,10 +126,13 @@
                 от 200 грн.</li>
         </ul>
         <button type="button">онлайн-запись</button>
+      </div>
       </section>
 
       <!-- -----------***| секция Почему приходят к нам   |***---------- -->
+       
       <section>
+         <div class="container">  
       <h2 hidden>Преимущества</h2>
       <ul>
         <li><img src="./image/benefits/benefit1.jpg" alt="список преимуществ"></li>
@@ -128,9 +143,13 @@
       <P>старая традиционная школа</P>
       <h2>Почему приходят именно к нам?</h2>
       <h3>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</h3>
-      </section>
+    </div>  
+    </section>
+      
   <!-- -----------***| секция Наши мастера  |***---------- -->
-      <section>
+       
+  <section>
+    <div class="container"> 
       <p>для настоящих ценителей атмосферы</p>
       <h2>Наши мастера</h2>
       <ul>
@@ -224,9 +243,13 @@
                 >linkedin</a>
         </li>
       </ul>
+       </div>
       </section>
+     
       <!-- -----------***| секция Портфолио  |***---------- -->
+  
       <section>
+           <div class="container"> 
     <h2 hidden> Портфолио</h2>
     <ul>
         <li><img src="./image/portfolio/1.jpg" alt="рабочий процесс" width="270"></li>
@@ -234,12 +257,15 @@
         <li><img src="./image/portfolio/3.jpg" alt="рабочий процесс" width="270"></li>
         <li><img src="./image/portfolio/4.jpg" alt="рабочий процесс" width="270"></li>
     </ul>
-
+</div>
       </section>
+      
     </main>
 
   <!-- -----------***| Контакты  |***---------- -->
-      <section>
+      
+  <section>
+    <div class="container"> 
         <div>
             <h2>Онлайн-запись</h2>
             <form>
@@ -264,11 +290,14 @@
             <p>время работы</p>
             <p>Ежедневно с <time datetime="09.00">9:00</time> до <time datetime="22.00"></time>22:00</p>
         </div>
-
+</div>
       </section>
+      
 
       <!-- -----------***| Футер  |***---------- -->
-  <footer>
+   
+      <footer>
+         <div class="container"> 
     <p>&#169; Copyright 2020</p>
     <ul>
        <li> 
@@ -288,6 +317,9 @@
           >YouTube</a
         ></li>
     </ul>
+
+</div>
   </footer>
+  
   </body>
 </html>
