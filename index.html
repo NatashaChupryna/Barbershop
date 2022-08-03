@@ -42,7 +42,7 @@
     <!-- -----------***| секция Герой  |***---------- -->
       
     <section class="hero">
-      <div class="container">
+      <div class="container hero-container">
         <div class="hero-left-side">
         <ul class="hero-link-list">
         <li><a
@@ -66,7 +66,7 @@
         </ul>
         </div>
 
-        <div class="hero-title--wrap">
+        <div class="hero-right-side">
         <p lang="en" class="hero-uppertitle">A hair salon for men in Kyiv</p>
         <h1 lang="en" class="hero-title">BarberShop</h1>
         <p class="hero-text">
@@ -84,22 +84,29 @@
 
     <!-- -----------***| секция О нас  |***---------- -->
      
-    <section>
-<div class="container">
+    <section class="about">
+<div class="container about-container">
 
-
+   <ul class="about-list">
+      <li>
         <img src="./image/img1.jpg" alt="бритье" width="270" />
+      </li>
+       <li>
         <img src="./image/img2.jpg" alt="бритье опасной бритвой" width="270" />
-        <p>О НАС</p>
-        <h2>
+      </li>  
+  </ul>
+
+        <div class="about-description">
+        <p class="about-description--uppertitle">О НАС</p>
+        <h2 class="about-description--title">
           Лучший Барбершоп <br />
           твоего города
         </h2>
-        <h3>
+        <h3 class="about-description--subtitle">
           Если ты хочешь добавить в свой образ больше уверенности – тебе точно к
           нам.
         </h3>
-        <p>
+        <p class="about-description--text">
           Мы команда, которая никогда не останавливается на достигнутом и жаждет
           перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не
           сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
@@ -108,35 +115,47 @@
         </p>
         <button type="button" class="button button--light">онлайн-запись</button>
 </div>
+</div>
       </section>
 
     <!-- -----------***| секция Цены  |***---------- -->
   
-    <section>
+    <section class="price">
 <div class="container">  
-        <p>Проведи время в компании лучших мастеров</p>
-        <h2>Услуги и цены</h2>
-        <ul>
-            <li>Мужская стрижка
+        <p class="price-uppertitle">Проведи время в компании лучших мастеров</p>
+        <h2 class="price-title">Услуги и цены</h2>
+   
+        <ul class="price-list">
+          <li class="list-item">
+            <ul class="price-inner-list">
+            <li class="price-list-item">Мужская стрижка
                 от 300 грн.</li>
-            <li>Стрижка бороды
+            <li class="price-list-item">Стрижка бороды
                 от 200 грн.</li>
-            <li>Стрижка усов
+            <li class="price-list-item">Стрижка усов
                 от 200 грн.</li>
-            <li>Бритье опасной бритвой
+            <li class="price-list-item">Бритье опасной бритвой
                 от 200 грн.</li>
-        </ul>
-        <ul>
-            <li>Cтрижка у стажера
+            </ul>
+        </li>
+        
+
+  
+          <li class="list-item">
+          <ul class="price-inner-list">
+            <li class="price-list-item">Cтрижка у стажера
                 от 50 грн.</li>
-            <li>Стрижка под насадку
+            <li class="price-list-item">Стрижка под насадку
                 от 200 грн.</li>
-            <li>Детская стрижка (до 12 лет)
+            <li class="price-list-item">Детская стрижка (до 12 лет)
                 от 300 грн.</li>
-            <li>Камуфлирование седины
+            <li class="price-list-item">Камуфлирование седины
                 от 200 грн.</li>
+                </ul>
+                </li>
         </ul>
-        <button type="button" class="button button--dark ">онлайн-запись</button>
+      
+        <button type="button" class="button button--dark price-btn">онлайн-запись</button>
       </div>
       </section>
 
