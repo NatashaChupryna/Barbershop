@@ -1,0 +1,56 @@
+.header-container {
+    @extend %CenteredFlex;
+    background-color: #191c26;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // z-index: 100;
+    width: 100%;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.nav-list {
+    @extend %CenteredFlex;
+    gap: 40px;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    display: block;
+    padding: 52px 0;
+    
+&:hover, &:focus {color: $accent-color;}
+}
+
+.secondary-nav {
+    display: flex;
+}
+
+
+
+.contact {
+    margin-left: auto;
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 24px 0;
+
+    &:hover, &:focus{
+            color: $accent-color;
+        }
+}
+

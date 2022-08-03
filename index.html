@@ -15,7 +15,7 @@
   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./sass/main.css">
   </head>
   <body>
 
@@ -34,20 +34,21 @@
         
         <a href="tel:+380441111111" class="contact">+38 044 111 11 11</a>
 
-        <button type="button" class="button ">онлайн-запись</button>
+        <button type="button" class="button button--dark">онлайн-запись</button>
     </div>
     </header>
 
     <main>
     <!-- -----------***| секция Герой  |***---------- -->
       
-    <section>
+    <section class="hero">
       <div class="container">
         <a
           href="https://www.instagram.com/"
           lang="en"
           rel="noopener noreferrer"
           target="_blank"
+          class="hero-link hero-link--before"
           >Instagram</a
         >
         <a
@@ -55,11 +56,11 @@
           lang="en"
           rel="noopener noreferrer"
           target="_blank"
-          >YouTube</a
+          class="hero-link">YouTube</a
         >
-        <p lang="en">A hair salon for men in Kyiv</p>
-        <h1 lang="en">BarberShop</h1>
-        <p>
+        <p lang="en" class="hero-uppertitle">A hair salon for men in Kyiv</p>
+        <h1 lang="en" class="hero-title">BarberShop</h1>
+        <p class="hero-text">
           Мы эксперты в модных мужских стрижках.<br />
           Работаем быстро, осторожно и со вкусом.
         </p>
@@ -95,7 +96,7 @@
           волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам
           приходит!
         </p>
-        <button type="button">онлайн-запись</button>
+        <button type="button" class="button button--light">онлайн-запись</button>
 </div>
       </section>
 
@@ -125,7 +126,7 @@
             <li>Камуфлирование седины
                 от 200 грн.</li>
         </ul>
-        <button type="button">онлайн-запись</button>
+        <button type="button" class="button button--dark ">онлайн-запись</button>
       </div>
       </section>
 
@@ -278,7 +279,7 @@
               <label for="">
                 <textarea name="" id="" cols="30" rows="10"></textarea>
               </label>
-              <button type="submit">отправить</button>
+              <button type="submit" class="button button--dark">отправить</button>
             </form>
           </div>
         <div>

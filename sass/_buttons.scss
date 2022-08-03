@@ -1,0 +1,28 @@
+.button {
+    display: block;
+    border: 1px solid $accent-color;
+        border-radius: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: transparent;
+min-width: 160px;
+    &:hover, 
+    &:focus{background-color: $accent-color}
+    transition: $transition
+}
+
+.button--dark {
+    @extend .button;
+   color: white;
+}
+
+.button--light{
+    @extend .button;
+    color: $main-text-color;
+}
+
