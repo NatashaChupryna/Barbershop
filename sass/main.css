@@ -109,7 +109,6 @@ section {
 }
 
 .hero-container {
-  height: 680px;
   display: flex;
 }
 
@@ -117,7 +116,7 @@ section {
   display: flex;
   align-items: center;
   gap: 40px;
-  transform: rotate(-90deg) translateY(27px);
+  transform: rotate(-90deg);
   transform-origin: top left;
 }
 .hero-link-list::before {

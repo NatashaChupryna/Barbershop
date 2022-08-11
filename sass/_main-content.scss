@@ -12,14 +12,14 @@ background-position: top right;
 background-repeat: no-repeat;
 }
 
-.hero-container {height: 680px;
+.hero-container {
 display: flex;}
 
 
 .hero-link-list{display: flex;
     align-items: center;
     gap: 40px;
-    transform: rotate(-90deg) translateY(27px);
+    transform: rotate(-90deg);
     transform-origin: top left;
         &::before {
             content: " ";
